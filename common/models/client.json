@@ -35,6 +35,14 @@
     "signUpDate": {
       "type": "date",
       "required": true
+    },
+    "currentlyCheckedIn": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "username": {
+      "type": "string"
     }
   },
   "validations": [],

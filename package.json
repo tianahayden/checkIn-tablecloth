@@ -7,11 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-     "prestart": "npm run --prefix client build",
-     "start": "npm run build && node .",
-     "start-dev": "concurrently \"nodemon .\" \"npm start --prefix client\"",
-     "postinstall": "npm install --prefix client",
-     "posttest": "npm run lint &amp;&amp; nsp check",
+    "start": "npm run build && node .",
     "build": "webpack"
   },
   "repository": {
