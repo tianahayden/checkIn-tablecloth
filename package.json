@@ -39,7 +39,7 @@
     "loopback": "^3.19.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^6.0.0",
-    "loopback-connector-mongodb": "^3.8.0",
+    "loopback-connector-mongodb": "^3.9.2",
     "morgan": "^1.8.1",
     "prop-types": "^15.5.10",
     "react": "^15.3.2",

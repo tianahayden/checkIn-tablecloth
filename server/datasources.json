@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "tablecloth-test": {
+    "host": "demo.strongloop.com",
+    "port": 27017,
+    "url": "",
+    "database": "tablecloth-test",
+    "password": "",
+    "name": "tablecloth-test",
+    "user": "",
+    "connector": "mongodb"
   }
 }
