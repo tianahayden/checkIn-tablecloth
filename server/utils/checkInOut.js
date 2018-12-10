@@ -43,9 +43,6 @@ function checkInOut(username) {
 						.then(() => resolve(updateClient))
 						.catch(err => reject(err));
 				}
-				else {
-					console.log('wrong')
-				}
 			})
 			.catch(err => reject({ error: 'Could not find username', err }))
 	})
