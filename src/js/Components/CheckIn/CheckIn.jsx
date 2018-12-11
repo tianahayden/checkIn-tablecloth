@@ -16,20 +16,33 @@ class CheckIn extends React.Component {
 
     checkInOut(e) {
         const { dispatch, clientId } = this.props;
-        console.log(clientId)
-        console.log('in button event')
         dispatch(checkInOut(clientId))
     }
 
 
     render() {
-        return (
-            <div>
-                <label>Enter Username</label>
-                <input onChange={this.handleUsername}/>
-                <button onClick={this.checkInOut}>Enter</button>
-            </div>
-        )
+        const { clientData } = this.props;
+        if (clientData) {
+            if (clientData.currentlyCheckedIn == true) {
+                return (
+                    <div>
+                        <h1>Checked In</h1>
+                    </div>
+                )
+            }
+            else {
+                <h1>Yo</h1>
+            }
+        }
+        else {
+            return (
+                <div>
+                    <label>Enter Username</label>
+                    <input onChange={this.handleUsername} />
+                    <button onClick={this.checkInOut}>Enter</button>
+                </div>
+            )
+        }
     }
 }
 

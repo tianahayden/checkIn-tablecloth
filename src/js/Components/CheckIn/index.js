@@ -3,7 +3,8 @@ import CheckIn from './CheckIn';
 
 function mapStateToProps(store) {
     return {
-        clientId: store.CheckIn.clientId
+        clientId: store.CheckIn.clientId,
+        clientData: store.CheckIn.clientData
     }
 }
 

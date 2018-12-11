@@ -1,5 +1,6 @@
 const defaultState = {
-    clientId:''
+    clientId:'',
+    clientData: undefined
 };
 
 export default function CheckInReducer(state = defaultState, action) {
@@ -10,6 +11,12 @@ export default function CheckInReducer(state = defaultState, action) {
             return {
                 ...state,
                 clientId: payload
+            }
+        }
+        case 'TOGGLE_CHECK_IN_OUT_FULFILLED': {
+            return {
+                ...state,
+                clientData: payload
             }
         }
         default: {
