@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint .",
     "start": "npm run build && node .",
-    "build": "webpack"
+    "build": "webpack",
+    "sass": "sass src/css/style.scss public/style.css"
   },
   "repository": {
     "type": "",
@@ -49,6 +50,7 @@
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.1",
     "redux-promise-middleware": "^5.1.1",
+    "sass": "^1.15.2",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^3.0.0",
     "url-loader": "^1.1.1",

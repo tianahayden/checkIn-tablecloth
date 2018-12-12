@@ -1,0 +1,53 @@
+html {
+    font-family: 'Karla', sans-serif;
+}
+
+.login {
+    margin: 50px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    input{
+        height: 50px;
+        width: 300px;
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+
+.button{
+    margin: 10px;
+    font-size: 30px;
+    position: relative;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+    min-height: 48px;
+    background-color: rgb(79, 176, 174);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s, border-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    padding: 6px 18px 8px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.readingTests {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
