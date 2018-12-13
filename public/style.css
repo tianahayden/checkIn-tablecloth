@@ -1,5 +1,6 @@
 html {
   font-family: "Karla", sans-serif;
+  background-color: #f7f4f4;
 }
 
 .login {
@@ -26,7 +27,7 @@ html {
   white-space: nowrap;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
   min-height: 48px;
-  background-color: #4fb0ae;
+  background-color: #009f86;
   color: white;
   transition: background-color 0.2s ease 0s, color 0.2s ease 0s, border-color 0.2s ease 0s, opacity 0.2s ease 0s;
   outline: none;
@@ -48,6 +49,58 @@ html {
 .container {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+
+.header {
+  margin-top: 50px;
+}
+.header img {
+  border-radius: 50%;
+  height: 200px;
+}
+
+.wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d4d4d4;
+  padding: 50px;
+  margin: 100px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+  width: 1000px;
+}
+
+.button-orange {
+  font-size: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+  background-color: #e5694c;
+  color: white;
+  transition: background-color 0.2s ease 0s, color 0.2s ease 0s, border-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  border-width: 1px solid transparent;
+  padding: 6px 18px 8px;
+  border-radius: 4px;
+  width: 150px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.button-teal {
+  font-size: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+  background-color: #009f86;
+  color: white;
+  transition: background-color 0.2s ease 0s, color 0.2s ease 0s, border-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  border-width: 1px solid transparent;
+  padding: 6px 18px 8px;
+  border-radius: 4px;
+  width: 150px;
+  margin: auto;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

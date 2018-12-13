@@ -1,5 +1,13 @@
+$teal: #009f86;
+$orange: #e5694c;
+$white: rgb(255, 255, 255);
+$html-back: #f7f4f4;
+$light-border: #d4d4d4;
+$box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+
 html {
     font-family: 'Karla', sans-serif;
+    background-color: $html-back;
 }
 
 .login {
@@ -25,10 +33,10 @@ html {
     font-weight: 700;
     cursor: pointer;
     white-space: nowrap;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+    box-shadow: $box-shadow;
     min-height: 48px;
-    background-color: rgb(79, 176, 174);
-    color: rgb(255, 255, 255);
+    background-color: $teal;
+    color: $white;
     transition: background-color 0.2s ease 0s, color 0.2s ease 0s, border-color 0.2s ease 0s, opacity 0.2s ease 0s;
     outline: none;
     border-width: 1px;
@@ -50,4 +58,56 @@ html {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.header {
+    margin-top: 50px;
+
+    img {
+        border-radius: 50%;
+        height: 200px;
+    }
+}
+
+.wrapper {
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $light-border;
+    padding: 50px;
+    margin: 100px;
+    box-shadow: $box-shadow;
+    width: 1000px;
+}
+
+.button-orange {
+    font-size: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: $box-shadow;
+    background-color: $orange;
+    color: $white;
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s, border-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    border-width: 1px solid transparent;
+    padding: 6px 18px 8px;
+    border-radius: 4px;
+    width: 150px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.button-teal {
+    font-size: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: $box-shadow;
+    background-color: $teal;
+    color: $white;
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s, border-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    border-width: 1px solid transparent;
+    padding: 6px 18px 8px;
+    border-radius: 4px;
+    width: 150px;
+    margin: auto;
+    text-decoration: none;
 }
