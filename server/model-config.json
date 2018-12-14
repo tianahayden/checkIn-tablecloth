@@ -14,29 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "tablecloth-test"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "tablecloth-test",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "tablecloth-test",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "tablecloth-test",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "tablecloth-test",
     "public": false
   },
   "client": {
-    "dataSource": "db",
+    "dataSource": "tablecloth-test",
     "public": true
   }
 }
